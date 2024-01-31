@@ -1,5 +1,5 @@
-[]: # Autor: Sergio Ruiz Martin
-[]: # Fecha: 7/01/2024
+Autor: Sergio Ruiz Martin
+Fecha: 31/01/2024
 
 # ComicHub
 
