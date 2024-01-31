@@ -1,0 +1,7 @@
+{
+    "name": "vendor/tiendacomic",
+    "type": "library",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}

@@ -1,0 +1,258 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color:#22262A;
+}
+
+img{
+    width: 20%;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+}
+
+ul{
+    background-color: #343a40;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    margin-top: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+nav img{
+    width: 11%;
+    margin-right: 38px;
+}
+
+.hero{
+    background:url(../img/portada.png) no-repeat right;
+    background-size:auto;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+h1{
+    max-width: 808px;
+    color:white;
+    font-size: 60px;
+    font-family:'Merriweather', serif;
+
+}
+
+p{
+    color: white;
+    max-width: 808px;
+}
+
+.search-section {
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background: url(../img/Portada-del-cómic-dedicada-a-la-Fuengirola-Comic-Con.jpeg) no-repeat right #2C3033;
+    background-size:contain;
+    margin-right: 40px;
+}
+
+.search-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.search-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.section__search {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FF0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.section__search:hover{
+    background-color: #8b0000;
+    color: white;
+    text-decoration: none;   
+}
+.register-section {
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background: url(../img/iluminati.png) no-repeat right #343a40;
+    background-size:33%;
+    margin-right: 40px;
+}
+
+.register-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.register-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.section__register {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    
+}
+.section__register:hover{
+    background-color: #8b0000;
+    color: white;
+    text-decoration: none;   
+}
+.contact-section {
+    margin-top: 80px;
+    padding: 40px;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    font-size: 18px;
+}
+
+.section__link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #59ceee;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.section__link:hover {
+    background-color: #0c7cd5;
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 80px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo img {
+    width: 80px; /* Ajusta el tamaño según sea necesario */
+}
+
+.footer__links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer__links a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer__social a {
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.footer__social{
+    display: flex;
+    gap: 20px;
+}
+.footer__copyright {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+.footer__copyright p {
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?zfxv09');
+    src:  url('../fonts/icomoon.eot?zfxv09#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?zfxv09') format('truetype'),
+      url('../fonts/icomoon.woff?zfxv09') format('woff'),
+      url('../fonts/icomoon.svg?zfxv09#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  .icon-github:before {
+    content: "\eab0";
+  }
+
+  
+
+
+  

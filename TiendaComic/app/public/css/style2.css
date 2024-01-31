@@ -1,0 +1,66 @@
+/* style.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #22262A;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Estilos para la página de cómic individual */
+  .single-comic__body {
+    margin-top: 20px;
+  }
+  
+  .single-comic__container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .single-comic__container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .single-comic__container h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color:#000000
+  }
+  
+  .single-comic__container p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  a:link, 
+a:visited {
+    color: #ED462F;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s;
+}
+
+a:hover,
+a:active {
+    color: white;
+    background-color: #ED462F;
+    box-shadow: 0 1rem 2rem rgba(black, .4);
+    transform: rotate(5deg) scale(1.2);
+    padding: 2px;
+}
+
+strong{
+  color: white;
+}
+
